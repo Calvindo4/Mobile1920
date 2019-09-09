@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Lorem Generator</string>
+    <string name="title_text">Lorem Generator</string>
+    <string name="yellow_star">Yellow star (not platinum)</string>
+    <string name="lorem_text">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit.
+        Proin vestibulum venenatis vehicula.
+        Integer sollicitudin laoreet venenatis.
+        In ullamcorper eu mauris ac vulputate.
+        Fusce pretium,
+        metus non ultricies convallis,
+        lorem augue consectetur magna,
+        non elementum erat ex sit amet lacus.
+        Integer at scelerisque felis.
+        Nulla commodo lectus sed egestas feugiat.
+        Nunc molestie lacus et dapibus feugiat.
+        Suspendisse porttitor imperdiet lacus,
+        vel sodales nisl faucibus at.
+        Integer vel ultricies lacus.
+        Fusce a justo sit amet lectus luctus dignissim ac iaculis metus.</string>
+    <string name="lorem_text2">Lorem ipsum dolor sit amet,
+        maecenas tincidunt mi vitae tellus sagittis facilisis.
+        Praesent in neque auctor erat vehicula ornare.
+        onec vehicula pretium risus et finibus.
+        Curabitur sed turpis quis sapien faucibus accumsan ac id risus.
+        Cras egestas agestas urna,
+        vulputate mollis magna tincidunt a.
+        Morbi sit amet nisi sit amet est consequat lacinia vitae a sapien.
+        Donec hendrerit mi a tristique congue.
+        Proin et turpis vitae elit fermentum interdum.
+        Vestibulum cursus felis in interdum convallis.
+        Vestibulum hendrerit semper blandit.
+        Curabitur vel tempus turpis.
+        Curabitur at nulla eu mi laoreet leoreet id eget dolor.
+        Praesent consequat magna id mauris consectetur rutrum. </string>
+    <string name="lorem_text3">Lorem ipsum dolor sit amet,
+        phasellus at ultricies mi.
+        Pellentesque ut lacinia nunc.
+        Duis nec enim velit.
+        Vestibulum ullamcorper libero auctor nisl dictum tristique.
+        In hendrerit dolor nisl,
+        nec faucibus erat fringilla vitae.
+        Donec et ligula tellus.
+        Donec tincidunt turpis id sem ultrices,
+        at consequat tortor pretium.
+        Duis non leo id mauris suscipit convallis quis in nunc.
+        Nulla luctus,
+        quam in ornare sagittis,
+        orci turpis consectetur sapien,
+        et euismod lacus purus vel ex.
+        Pellentesque placerat accumsan tortor et vulputate.
+        Integer porttitor augue libero,
+        vestibulum aliquet purus fringilla eu.
+        Ut cursus suscipit dolor in sagittis.</string>
+    <string name="creator_fill">Created by me</string>
+    <string name="creator_button">Confirm</string>
+    <string name="creator_text">Selected item:</string>
+    <string-array name="droplist">
+        <item>Lorem Ipsum</item>
+        <item>existence is futile</item>
+        <item>Legal Ipsum and etc.</item>
+    </string-array>
+
+</resources>
