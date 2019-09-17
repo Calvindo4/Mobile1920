@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Finding Game</string>
+
+    <string name="box_one">1st Box</string>
+    <string name="box_two">2nd Box</string>
+    <string name="box_three">3rd Box</string>
+    <string name="box_four">4th Box</string>
+    <string name="box_five">5th Box</string>
+
+    <string name="instruction_head">How 2 Play</string>
+    <string name="instruction_text">Click a box to find the star</string>
+</resources>
