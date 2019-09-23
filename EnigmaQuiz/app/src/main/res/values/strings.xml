@@ -21,8 +21,8 @@
     <string name="position">Position</string>
     <string name="select_an_avatar">Select an Avatar</string>
     <string name="android_trivia">Enigma Quiz</string>
-    <string name="about_text">This is a quiz game where you need to answer the questions with the right answers in order to advance to the next levels.\n\nUse your various knowledge and think out of the box in order to answer all questions!</string>
-    <string name="rules_text">Answer 5 questions from randomly picked 15 questions. Select the answer from one of four options given. Each time you get an answer correct, you advance to the next question.\n\nHowever, if you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game. \n\nSo read these questions well, find the connections, and answer with your brawn!</string>
+    <string name="about_text">This is a quiz game where you need to answer the questions with the right answers in order to advance to the next levels.\n\nUse your various knowledge in order to answer all questions!</string>
+    <string name="rules_text">Answer all 15 questions, each questions have a different topics. Select the answer from one of four options given. Each time you get an answer correct, you advance to the next question.\n\nHowever, if you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
     <string name="rules">Rules</string>
     <string name="about">About</string>
     <string name="trivia_hint">Quiz Hint</string>
