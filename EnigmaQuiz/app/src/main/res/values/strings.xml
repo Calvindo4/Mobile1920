@@ -1,0 +1,40 @@
+<!--
+  ~ Copyright 2018, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Enigma Quiz</string>
+    <string name="game_over">Game Over</string>
+    <string name="try_again">Try Again?</string>
+    <string name="position">Position</string>
+    <string name="select_an_avatar">Select an Avatar</string>
+    <string name="android_trivia">Enigma Quiz</string>
+    <string name="about_text">This is a quiz game where you need to answer the questions with the right answers in order to advance to the next levels.\n\nUse your various knowledge and think out of the box in order to answer all questions!</string>
+    <string name="rules_text">Answer 5 questions from randomly picked 15 questions. Select the answer from one of four options given. Each time you get an answer correct, you advance to the next question.\n\nHowever, if you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game. \n\nSo read these questions well, find the connections, and answer with your brawn!</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="trivia_hint">Quiz Hint</string>
+    <string name="title_android_trivia_question">Enigma Quiz (%1$d/%2$d)</string>
+    <string name="title_about_trivia">About Quiz</string>
+    <string name="title_trivia_rules">Quiz Rules</string>
+    <string name="share_success_text">I mastered #UdacityEnigmaQuiz with %1$d/%2$d correct questions!</string>
+    <string name="submit_button">Submit</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
