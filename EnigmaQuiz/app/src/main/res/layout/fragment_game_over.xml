@@ -25,20 +25,23 @@
         android:layout_height="match_parent"
         android:background="@color/gameOverBackground">
 
-        <ImageView
-            android:id="@+id/gameOverFragment"
+        <TextView
+            android:id="@+id/GameOverText"
             android:layout_width="wrap_content"
             android:layout_height="362dp"
             android:layout_marginStart="@dimen/horizontal_margin"
             android:layout_marginEnd="@dimen/horizontal_margin"
             android:layout_marginBottom="8dp"
-            android:scaleType="fitCenter"
+            android:fontFamily="sans-serif"
+            android:text="@string/game_over"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:typeface="normal"
             app:layout_constraintBottom_toTopOf="@+id/tryAgainButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_chainStyle="packed"
-            app:srcCompat="@drawable/try_again" />
+            app:layout_constraintVertical_chainStyle="packed"/>
 
         <Button
             android:id="@+id/tryAgainButton"

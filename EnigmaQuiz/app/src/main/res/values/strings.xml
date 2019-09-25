@@ -15,26 +15,25 @@
   -->
 
 <resources>
-    <string name="app_name">Enigma Quiz</string>
-    <string name="game_over">Game Over</string>
+    <string name="app_name">Enigma Dungeon</string>
+    <string name="game_over">When you entered the next room, it is empty, nothing around you in that room. \n\nSuddenly the door behind you closes, and the floor beneath you opens away to a bottomless pit. \n\nYou started to fall, and you do not even know when to land, or what will happen to you.</string>
     <string name="try_again">Try Again?</string>
     <string name="position">Position</string>
     <string name="select_an_avatar">Select an Avatar</string>
-    <string name="android_trivia">Enigma Quiz</string>
-    <string name="about_text">This is a quiz game where you need to answer the questions with the right answers in order to advance to the next levels.\n\nUse your various knowledge in order to answer all questions!</string>
-    <string name="rules_text">Answer all 15 questions, each questions have a different topics. Select the answer from one of four options given. Each time you get an answer correct, you advance to the next question.\n\nHowever, if you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="android_trivia">Enigma Dungeon</string>
+    <string name="about_text">This is an adventure game where you explore a dungeon that randomly changing structures. \n\nYour objective is to get a treasure chest that guarded by the dungeon. \n\nThere is also 3 available endings.</string>
+    <string name="rules_text">Pick one of four decision or options given in order to advance to the next room or corridor, and eventually get the treasure. \n\nHowever, some options can change the outcome of the endings. for example, bad decisions can increase your chances of getting a bad ending.</string>
     <string name="rules">Rules</string>
     <string name="about">About</string>
-    <string name="trivia_hint">Quiz Hint</string>
-    <string name="title_android_trivia_question">Enigma Quiz (%1$d/%2$d)</string>
-    <string name="title_about_trivia">About Quiz</string>
-    <string name="title_trivia_rules">Quiz Rules</string>
-    <string name="share_success_text">I mastered #UdacityEnigmaQuiz with %1$d/%2$d correct questions!</string>
-    <string name="submit_button">Submit</string>
-    <string name="congratulations">Congratulations!</string>
+    <string name="trivia_hint">Dungeon Hint</string>
+    <string name="title_android_trivia_question">Enigma Dungeon (%1$d/%2$d)</string>
+    <string name="title_about_trivia">About Game</string>
+    <string name="title_trivia_rules">Game Rules</string>
+    <string name="share_success_text">I cleared Enigma Dungeon!</string>
+    <string name="submit_button">Proceed</string>
+    <string name="not_congratulations">Congrats! You finally got the treasure chest! \n\nYou then take the treasure chest, get out from the dungeon, and opens it. \n\nWhen you open the treasure chest, it turns out that the treasure is \n\nFake gold?! No, This is not possible! \n\nWait a minute, it seems like that you did some wrong choices when you tries to venture into the dungeon. \n\nThe real treasure is still inside the dungeon. \n\nWill you enter the dungeon again?</string>
+    <string name="congratulations">Congrats! You finally got the treasure chest! \n\nYou then take the treasure chest, get out from the dungeon, and opens it. \n\nWhen you open the treasure chest, it turns out that the treasure is \n\nAncient gold worth of tons of dollars, and an old scroll! \n\nYou then read the scroll, it says: \n\n"Those who succeed in getting this treasure, you still have a long way to go. There's a lot of treasure like this in this world, and this is just one of the small ones."</string>
     <string name="share">Share</string>
     <string name="sharing_not_available">Sharing Not Available</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
