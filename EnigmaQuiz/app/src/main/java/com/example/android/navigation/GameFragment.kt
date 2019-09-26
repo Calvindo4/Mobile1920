@@ -83,7 +83,6 @@ class GameFragment : Fragment() {
         binding.submitButton.setOnClickListener @Suppress("UNUSED_ANONYMOUS_PARAMETER")
         { view: View ->
             val checkedId = binding.questionRadioGroup.checkedRadioButtonId
-
             // Do nothing if nothing is checked (id == -1)
             if (-1 != checkedId) {
                 var answerIndex = 0
@@ -93,39 +92,15 @@ class GameFragment : Fragment() {
                     R.id.fourthAnswerRadioButton -> answerIndex = 3
                 }
 
-                when (currentQuestion) {
-                    questions[0] -> when(answerIndex) {
-                        0 -> {
-                                currentQuestion = questions[1]
-                                answers = currentQuestion.answers.toMutableList()
-                        }
-                    }
-                    questions[1] -> when(answerIndex) {
-                        0 -> {
-                            currentQuestion = questions[2]
-                            answers = currentQuestion.answers.toMutableList()
-                        }
-                    }
-                }
-                binding.invalidateAll()
                 // The first answer in the original question is always the correct one, so if our
                 // answer matches, we have the correct answer.
-
                 if (answers[answerIndex] == currentQuestion.answers[0]) {
                     questionIndex++
-
                     // Advance to the next question
                     if (questionIndex < numQuestions) {
                         currentQuestion = questions[questionIndex]
                         setQuestion()
                         binding.invalidateAll()
-                        if(checkedId != 0) {
-                            answerValue ++
-                        }
-
-                        else if(checkedId == 0) {
-                            answerValue --
-                        }
                     }
                     else if (answerValue > 15){
                         // Game over! A wrong answer sends us to the gameOverFragment.
@@ -138,6 +113,8 @@ class GameFragment : Fragment() {
                         // We've won!  Navigate to the gameWonFragment.
                         view.findNavController().navigate(R.id.action_gameFragment_to_gameWonFragment3)
                     }
+                } else {
+                    answerValue ++
                 }
             }
         }
@@ -151,10 +128,6 @@ class GameFragment : Fragment() {
         setQuestion()
     }
 
-    private fun startGame() {
-        currentQuestion = questions[0]
-    }
-
     // Sets the question and randomizes the answers.  This only changes the data, not the UI.
     // Calling invalidateAll on the FragmentGameBinding updates the data.
     private fun setQuestion() {
@@ -162,5 +135,6 @@ class GameFragment : Fragment() {
         // randomize the answers into a copy of the array
         answers = currentQuestion.answers.toMutableList()
         answers.shuffle()
+        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.title_android_trivia_question, questionIndex + 1, numQuestions)
     }
 }
