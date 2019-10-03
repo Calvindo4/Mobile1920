@@ -8,6 +8,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.example.android.navigation.databinding.ActivityMainBinding
+import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
     private lateinit var drawerLayout : DrawerLayout
@@ -19,6 +20,44 @@ class MainActivity : AppCompatActivity() {
         val navController = this.findNavController(R.id.nav_host_fragment)
         NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
         NavigationUI.setupWithNavController(binding.navView, navController)
+        
+        Timber.i("called onCreate")
+    }
+    
+     override fun onDestroy() {
+        super.onDestroy()
+
+        Timber.i("called onDestroy")
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        Timber.i("called onStart")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+
+        Timber.i("called onRestart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        Timber.i("called onResume")
+    }
+
+    override fun onPause() {
+        super.onPause()
+
+        Timber.i("called onPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+
+        Timber.i("called onStop")
     }
 
     override fun onSupportNavigateUp(): Boolean {
