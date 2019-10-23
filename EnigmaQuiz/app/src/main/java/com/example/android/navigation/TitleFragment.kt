@@ -8,13 +8,27 @@ import android.widget.TextView
 import androidx.databinding.DataBindingComponent
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
-import androidx.navigation.ui.NavigationUI
+import com.example.android.navigation.MyApplication
+import com.example.android.navigation.R
 import com.example.android.navigation.databinding.FragmentTitleBinding
+import timber.log.Timber
 
 /**
  * A simple [Fragment] subclass.
  */
 class TitleFragment : Fragment() {
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+
+        Timber.d(MyApplication.ON_ATTACH_CALLED)
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onDestroy(savedInstanceState)
+
+        Timber.d(MyApplication.ON_CREATE_CALLED)
+    }
 
     //Similar to onCreate on MainActivity
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
@@ -27,46 +41,33 @@ class TitleFragment : Fragment() {
         return binding.root     //Return inflate output
     }
 
-    override fun onCreate() {
-        super.onCreate()
-        
-        Timber.i("called onCreate")
-    }
-    
     override fun onStart() {
         super.onStart()
 
-        Timber.i("called onStart")
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-
-        Timber.i("called onRestart")
-    }
-
-    override fun onResume() {
-        super.onResume()
-
-        Timber.i("called onResume")
+        Timber.d(MyApplication.ON_START_CALLED)
     }
 
     override fun onPause() {
         super.onPause()
 
-        Timber.i("called onPause")
+        Timber.d(MyApplication.ON_PAUSE_CALLED)
     }
 
     override fun onStop() {
         super.onStop()
 
-        Timber.i("called onStop")
+        Timber.d(MyApplication.ON_STOP_CALLED)
     }
-    
-    override fun onDestroy() {
-        super.onDestroy()
 
-        Timber.i("called onDestroy")
+    override fun onDestroyView() {
+        super.onDestroyView()
+
+        Timber.d(MyApplication.ON_DESTROY_VIEW__CALLED)
     }
-    
+
+    override fun onDetach() {
+        super.onDetach()
+
+        Timber.d(MyApplication.ON_DETACH_CALLED)
+    }
 }
