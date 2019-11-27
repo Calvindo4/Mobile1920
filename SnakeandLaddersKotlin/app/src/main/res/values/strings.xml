@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Snake and Ladders</string>
+    <string name="dice_value">You got %1d</string>
+</resources>
